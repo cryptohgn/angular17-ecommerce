@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular17-ecommerce';
+  title = 'angular178888';
+  msg = 'Hello, welcome to this page'
+  a= 10;
+  b= 5;
+  ans = this.a + this.b;
 }
